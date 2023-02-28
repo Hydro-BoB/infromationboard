@@ -1,0 +1,12 @@
+https://www.101computing.net/information-board-javascript-challenge/
+
+
+In this challenge we are creating an information board that displays key messages on a LED screen that consists of 4 rows of 20 characters.
+
+We have created the HTML, and CSS code to render the board on the screen with a welcome message that, for now is hardcoded in the HTML code.
+
+We have also created a Javascript function called clearBoard() to clear the content of the board and have started a new function called inputMessage(). This function will allow the user to input a message to display on the board. However this function is incomplete and your task will be to add the relevant code to convert the message typed by the end-user into a Javascript 2D array called board. This board will then be passed as a parameter to the displayBoard() function that displays the content of this 2D array on the information board.
+
+Note that when displaying a message on the board, if a word cannot fit on a line, then it is added at the start of the next line of the board. (Words are not truncated or hyphenated!)
+
+To complete this challenge, you will need to click on the “Edit on CodePen” button below, and edit the Javascript code from line 36.

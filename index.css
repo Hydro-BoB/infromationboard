@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+}
+th ,td{
+    border: 2px dotted;
+    width: 20px;
+    height: 20px;
+    color: red;
+}
+label  {
+    color:red;
+}
